@@ -1,0 +1,14 @@
+{
+  "username": {
+    "type": "id",
+    "value": "user-name"
+  },
+  "password": {
+    "type": "id",
+    "value": "password"
+  },
+  "loginButton": {
+    "type": "id",
+    "value": "login-button"
+  }
+}
