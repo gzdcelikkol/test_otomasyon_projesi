@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 public class ElementHelper {
 
-    public static WebElement findElement(String pageName, String elementName){
+    public static WebElement findElement(String pageName, String elementName){ // elementi buluyor
         By locator = LocatorManager.getLocator(pageName, elementName);
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
