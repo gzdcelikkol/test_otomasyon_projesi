@@ -1,0 +1,10 @@
+{
+  "cartItem": {
+    "type": "class",
+    "value": "inventory_item_name"
+  },
+  "checkoutButton": {
+    "type": "id",
+    "value": "checkout"
+  }
+}

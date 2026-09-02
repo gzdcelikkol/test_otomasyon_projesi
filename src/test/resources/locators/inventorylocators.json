@@ -2,5 +2,13 @@
   "productsTitle": {
     "type": "class",
     "value": "title"
+  },
+  "addFirstProductButton": {
+    "type": "id",
+    "value": "add-to-cart-sauce-labs-backpack"
+  },
+  "cartIcon": {
+    "type": "class",
+    "value": "shopping_cart_link"
   }
 }
