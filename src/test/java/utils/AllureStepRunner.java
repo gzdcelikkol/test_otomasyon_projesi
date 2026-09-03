@@ -4,21 +4,28 @@ import helpers.ScreenshotHelper;
 import io.qameta.allure.Allure;
 import io.qameta.allure.model.Status;
 import io.qameta.allure.model.StepResult;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.util.UUID;
 
 public class AllureStepRunner {
+
+    // Logger'ı tanımlıyoruz
+    private static final Logger logger = LogManager.getLogger(AllureStepRunner.class);
 
     public static void run(String stepName, Runnable stepCode) {
         String uuid = UUID.randomUUID().toString();
         // Allure üzerinde yeni bir step
         Allure.getLifecycle().startStep(uuid, new StepResult().setName(stepName).setStatus(Status.PASSED));
 
+        logger.info("başladı" + stepName);
+
         try {
             // Asıl test çalışıyor
             stepCode.run();
             // Başarılıysa Allure u kapatıyoruz
             Allure.getLifecycle().stopStep(uuid);
+            logger.info("başarılı" + stepName);
 
         } catch (Throwable t) {
             // Hata alırsak durumu başarısız olarak işaretliyoruz
@@ -28,6 +35,7 @@ public class AllureStepRunner {
             ScreenshotHelper.takeScreenshot();
             Allure.getLifecycle().stopStep(uuid);
             // Testi durdurmak için hatayı throwluyoruz ki sistem catch'leyip terminalde failed olsun.
+          logger.error("başarısız" + stepName + t.getMessage()); // hata log'u
             throw t;
         }
     }

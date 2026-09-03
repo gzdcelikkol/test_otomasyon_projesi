@@ -3,12 +3,38 @@
     "type": "class",
     "value": "title"
   },
+
   "addFirstProductButton": {
     "type": "id",
     "value": "add-to-cart-sauce-labs-backpack"
   },
+
   "cartIcon": {
     "type": "class",
     "value": "shopping_cart_link"
+  },
+
+  "sortDropdown": {
+    "type": "class",
+    "value": "product_sort_container"
+  },
+
+  "menuButton": {
+    "type": "css",
+    "value": "#react-burger-menu-btn"
+  },
+
+  "logoutButton": {
+    "type": "css",
+    "value": "#logout_sidebar_link"
+  },
+  "anotherItem": {
+    "type": "css",
+    "value": "#add-to-cart-test\\.allthethings\\(\\)-t-shirt-\\(red\\)"
+  },
+  "backpack": {
+    "type": "css",
+    "value": "#item_4_title_link"
   }
+
 }

@@ -10,5 +10,9 @@
   "loginButton": {
     "type": "id",
     "value": "login-button"
+  },
+  "loginTitle": {
+    "type": "class",
+    "value": "login_logo"
   }
 }

@@ -22,5 +22,9 @@
   "completeMessage": {
     "type": "class",
     "value": "complete-header"
+  },
+  "backHome": {
+    "type": "css",
+    "value": "#back-to-products"
   }
 }
