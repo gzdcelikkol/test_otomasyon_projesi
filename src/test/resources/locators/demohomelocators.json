@@ -1,0 +1,38 @@
+{
+  "loginbutton": {
+    "type": "id",
+    "value": "login2"
+  },
+  "usernameField": {
+    "type": "id",
+    "value": "loginusername"
+  },
+  "passwordField": {
+    "type": "id",
+    "value": "loginpassword"
+  },
+  "loginSubmitButton": {
+    "type": "xpath",
+    "value": "//button[@onclick='logIn()']"
+  },
+  "logoutbutton":{
+    "type": "id",
+    "value": "logout2"
+  },
+  "welcomeMessage": {
+    "type": "id",
+    "value": "nameofuser"
+  },
+  "laptopsCategory": {
+    "type": "xpath",
+    "value": "//a[text()='Laptops']"
+  },
+  "macbookProduct": {
+    "type": "xpath",
+    "value": "//a[text()='MacBook air']"
+  },
+  "productTitle": {
+    "type": "class",
+    "value": "name"
+  }
+}

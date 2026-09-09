@@ -1,0 +1,28 @@
+{
+  "iphone-6": {
+    "type": "class",
+    "value": "hrefch"
+  },
+  "add-to-cart": {
+    "type": "xpath",
+    "value": "//*[@id=\"tbodyid\"]/div[2]/div/a"
+  },
+  "laptops": {
+    "type": "id",
+    "value":  "itemc"
+  },
+  "phones": {
+    "type": "css",
+    "value":  "#itemc"
+  },
+  "macbook-pro": {
+    "type": "id",
+    "value":  "hrefch"
+  },
+  "cart-button": {
+    "type": "class",
+    "value": "nav-link"
+  }
+
+
+}

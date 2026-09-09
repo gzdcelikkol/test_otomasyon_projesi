@@ -29,6 +29,12 @@ public class WaitHelper {
             WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(DEFAULT_TIMEOUT));
             return wait.until(ExpectedConditions.elementToBeClickable(locator));
         }
+
+    // JavaScript Alert (Uyarı) penceresinin ekranda belirmesini bekler
+    public static void waitForAlert() {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(DEFAULT_TIMEOUT));
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
     }
 
 
