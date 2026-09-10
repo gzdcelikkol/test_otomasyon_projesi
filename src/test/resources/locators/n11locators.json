@@ -1,0 +1,86 @@
+﻿{
+  "loginLink": {
+    "type": "xpath",
+    "value": "//a[@href='/giris-yap']"
+  },
+  "acceptAll": {
+    "type": "id",
+    "value": "1d5d7aff-8ee1-4a98-9022-f0e29a5e471c"
+  },
+  "emailInput": {
+    "type": "id",
+    "value": "email"
+  },
+  "passwordInput": {
+    "type": "id",
+    "value": "password"
+  },
+  "loginButton": {
+    "type": "xpath",
+    "value": "//button[contains(@class,'login-button')]"
+  },
+  "passwordToggleButton": {
+    "type": "xpath",
+    "value": "//button[@aria-label='toggle password visibility']"
+  },
+  "googleLoginButton": {
+    "type": "xpath",
+    "value": "//a[contains(@class,'login-content-sign-in__google')]"
+  },
+  "facebookLoginButton": {
+    "type": "xpath",
+    "value": "//a[contains(@class,'login-content-sign-in__facebook')]"
+  },
+  "searchInput": {
+    "type": "xpath",
+    "value": "//div[contains(@class,'searchWrapper')]//input"
+  },
+  "searchIcon": {
+    "type": "xpath",
+    "value": "//i[contains(@class,'new-search-icon')]"
+  },
+  "loginLink": {
+    "type": "xpath",
+    "value": "//a[@href='/giris-yap']"
+  },
+  "searchBox": {
+    "type": "xpath",
+    "value": "//div[contains(@class,'searchWrapper')]//input"
+  },
+  "sortButton": {
+    "type": "xpath",
+    "value": "//div[contains(@class,'sorting-filter')]//button"
+  },
+  "sortIcon": {
+    "type": "xpath",
+    "value": "//i[contains(@class,'n11Icon-sort-black')]"
+  },
+  "productList": {
+    "type": "xpath",
+    "value": "//div[contains(@class,'searchResults')]"
+  },
+  "productItem": {
+    "type": "xpath",
+    "value": "//a[contains(@class,'product-item')]"
+  },
+  "thirdProductItem": {
+    "type": "xpath",
+    "value": "(//a[contains(@class,'product-item')])[3]"
+  },
+  "productTitle": {
+    "type": "xpath",
+    "value": "//h2[contains(@class,'product-item-title')]"
+  },
+  "productPrice": {
+    "type": "xpath",
+    "value": "//h3[contains(@class,'price-currency')]"
+  },
+  "addToCartButton": {
+    "type": "xpath",
+    "value": "//button[contains(@class,'add-button') and contains(@class,'secondary')]"
+  },
+  "addToFavoritesButton": {
+    "type": "id",
+    "value": "add-to-favorites"
+  }
+}
