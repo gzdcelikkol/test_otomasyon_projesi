@@ -1,11 +1,15 @@
 ﻿{
   "loginLink": {
-    "type": "xpath",
-    "value": "//a[@href='/giris-yap']"
+    "type": "class",
+    "value": "login"
   },
-  "acceptAll": {
-    "type": "id",
-    "value": "1d5d7aff-8ee1-4a98-9022-f0e29a5e471c"
+  "homePage": {
+    "type": "class",
+    "value": "orderComps"
+  },
+  "log-in": {
+    "type": "xpath",
+    "value": "//*[@id=\"app\"]/div[2]/div/div[1]/div[1]/button"
   },
   "emailInput": {
     "type": "id",
@@ -38,10 +42,6 @@
   "searchIcon": {
     "type": "xpath",
     "value": "//i[contains(@class,'new-search-icon')]"
-  },
-  "loginLink": {
-    "type": "xpath",
-    "value": "//a[@href='/giris-yap']"
   },
   "searchBox": {
     "type": "xpath",

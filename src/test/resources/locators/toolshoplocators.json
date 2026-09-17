@@ -1,0 +1,122 @@
+{
+  "sign-in-link": {
+    "type": "xpath",
+    "value": "//*[@id=\"navbarSupportedContent\"]/ul/li[4]/a"
+  },
+  "email": {
+    "type": "id",
+    "value": "email"
+  },
+  "password": {
+    "type": "id",
+    "value": "password"
+  },
+  "log-in-button": {
+    "type": "class",
+    "value": "btnSubmit"
+  },
+  "home-link": {
+    "type": "id",
+    "value": "Layer_1"
+  },
+  "my-account": {
+    "type": "xpath",
+    "value": "/html/body/app-root/div[2]/app-overview/h1"
+  },
+  "categories-dropdown": {
+    "type": "css",
+    "value": "#navbarSupportedContent > ul > li.nav-item.dropdown > button"
+  },
+  "power-tools-cat": {
+    "type": "css",
+    "value": "#navbarSupportedContent > ul > li.nav-item.dropdown > ul > li:nth-child(2) > a"
+  },
+  "item-title": {
+    "type": "css",
+    "value": "body > app-root > div.container > app-detail > div.row.my-3 > div:nth-child(2) > h1"
+  },
+  "first-item": {
+    "type": "css",
+    "value": "body > app-root > div.container > app-category > div.row.my-4 > div.col-md-9 > div.container > a:nth-child(1) > div.card-body > h5"
+  },
+  "page-title": {
+    "type": "xpath",
+    "value": "//h2[@data-test='page-title']"
+  },
+  "forge-brand-filter": {
+    "type": "xpath",
+    "value": "//*[@id=\"filters\"]/div[3]/label/input"
+  },
+  "sort": {
+    "type": "xpath",
+    "value": "//*[@data-test='sort']"
+  },
+  "Name (Z - A)": {
+    "type": "xpath",
+    "value": "//*[@id=\"filters\"]/form/div/select/option[3]"
+  },
+  "product-sheet-sander": {
+    "type": "xpath",
+    "value": "/html/body/app-root/div[2]/app-category/div[2]/div[2]/div[1]/a[1]/div[2]"
+  },
+  "add-to-cart": {
+    "type": "id",
+    "value": "btn-add-to-cart"
+  },
+  "cart-link": {
+    "type": "xpath",
+    "value": "//*[@id=\"navbarSupportedContent\"]/ul/li[5]/a"
+  },
+  "sign-out": {
+    "type": "xpath",
+    "value": "//*[@id=\"navbarSupportedContent\"]/ul/li[4]/ul/li[7]/a"
+  },
+  "name-menu": {
+    "type": "id",
+    "value": "menu"
+  },
+  "cart-title": {
+    "type": "class",
+    "value": "col-md-5"
+  },
+  "second-item": {
+    "type": "xpath",
+    "value": "/html/body/app-root/div[2]/app-category/div[2]/div[2]/div[1]/a[2]/div[2]"
+  },
+  "Price (High - Low)": {
+    "type": "xpath",
+    "value": "//*[@id=\"filters\"]/form/div/select/option[4]"
+  },
+  "toast-msg": {
+    "type": "xpath",
+    "value": "//*[@id=\"toast-container\"]/div"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

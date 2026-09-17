@@ -14,5 +14,12 @@ public class WriteSteps {
 
     }
 
+    @Step("User enters <text> into <elementName> on <pageName> and enter.")
+    public static void write_enter(String text, String elementName, String pageName){
+        String resolvedText = TestDataHelper.resolveData(text);
+        ElementHelper.sendKeysAndEnter(pageName, elementName, resolvedText);
+
+    }
+
 
 }

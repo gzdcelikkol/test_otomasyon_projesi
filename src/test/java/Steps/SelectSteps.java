@@ -2,6 +2,7 @@ package Steps;
 
 import com.thoughtworks.gauge.Step;
 import helpers.ElementHelper;
+import utils.AllureStepRunner;
 
 public class SelectSteps {
 
@@ -9,5 +10,4 @@ public class SelectSteps {
     public void selectFromDropdown(String text, String elementName, String pageName){
         ElementHelper.selectByVisibleText(pageName,elementName,text);
     }
-
 }

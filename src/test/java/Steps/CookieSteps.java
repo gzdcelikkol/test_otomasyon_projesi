@@ -11,9 +11,6 @@ public class CookieSteps {
     public void acceptCookies() {
         AllureStepRunner.run("Çerez Pop-up'ı Kapatılıyor", () -> {
             try {
-                // Sayfanın ve Shadow DOM'un yüklenmesi için kısa bir bekleme
-                Thread.sleep(2000);
-
                 JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
 
                 String jsCommand = "document.querySelector('efilli-layout-dynamic').shadowRoot.querySelector('div[data-name=\"Accept Button\"]').click();";

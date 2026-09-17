@@ -3,10 +3,13 @@ package helpers;
 import driverManager.Driver;
 import locators.LocatorManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Keys;
+
 
 import java.time.Duration;
 public class ElementHelper {
@@ -36,6 +39,11 @@ public class ElementHelper {
         element.sendKeys(text);
     }
 
-
+    public static void sendKeysAndEnter(String pageName, String elementName, String text) {
+        WebElement element = WaitHelper.waitForElementVisible(pageName, elementName);
+        element.clear();
+        element.sendKeys(text);
+        element.sendKeys(Keys.ENTER); // Butona basmak yerine klavyeden Enter'a basıyoruz
+    }
 
 }
