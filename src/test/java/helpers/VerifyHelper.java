@@ -14,5 +14,3 @@ public class VerifyHelper {
                 .isTrue();
     }
 }
-
-// displayed visible presence farkı nedir
